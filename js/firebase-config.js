@@ -20,7 +20,5 @@ const firebaseConfig = {
 // 게시글 삭제용 관리자 비밀번호 (원하는 값으로 변경하세요)
 const ADMIN_PASSWORD = "club9admin";
 
-const SHEET_WEBAPP_URL = "https://script.google.com/macros/s/AKfycbwB6hbQqbGhJMHaRFDf6dNWltie7Hr8z4IvNt5-NTl5I-x-OgPbYdDEo4EPGGoAH1f6/exec";
-
 firebase.initializeApp(firebaseConfig);
 const db = firebase.firestore();
